@@ -16,5 +16,5 @@ def key_for_min_value(name_hash)
     number.max(inner_array_integers.length - 1) #reject all highest numbers except one, leaving min in array
   end
   name_hash_array[name_hash_array.index(inner_array_integers.to_s)]
-  
+
 end

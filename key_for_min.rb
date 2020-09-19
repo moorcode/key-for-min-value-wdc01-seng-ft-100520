@@ -11,8 +11,8 @@ def key_for_min_value(name_hash)
   end
   inner_array_integers.min_by do |number|
   end
-  name_hash_array[inner_array_integers.to_s.to_i][0]
   if name_hash.empty?
     nil
-  end
+  else
+  name_hash_array[inner_array_integers.to_s.to_i][0]
 end

@@ -16,3 +16,4 @@ def key_for_min_value(name_hash)
   else
   name_hash_array[inner_array_integers.to_s.to_i][0]
 end
+end

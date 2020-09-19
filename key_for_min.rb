@@ -9,8 +9,7 @@ def key_for_min_value(name_hash)
     inner_array_integers << name_hash_array[inner_array].last #put AoA integers, 1th/last value in nested array,in separate array
     inner_array += 1
   end
-  inner_array_integers.min_by do |number|
-  end
+
   if name_hash.empty?
     nil
   else

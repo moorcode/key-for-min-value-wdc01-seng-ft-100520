@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
     inner_array += 1
   end
   inner_array_integers.min_by do |number|
-    name_hash_array[number]
   end
+  name_hash_array[inner_array_integers]
 end

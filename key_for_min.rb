@@ -2,6 +2,9 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  if name_hash.empty?
+    nil
+  end
   name_hash_array = name_hash.to_a #turn hash to AoA
   inner_array_integers = []
   inner_array = 0
@@ -13,7 +16,5 @@ def key_for_min_value(name_hash)
     number.max(inner_array_integers.length - 1) #reject all highest numbers except one, leaving min in array
   end
   name_hash_array[name_hash_array.index(inner_array_integers.to_s)]
-  if name_hash.empty?
-    nil
-  end
+  
 end

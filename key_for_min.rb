@@ -9,6 +9,6 @@ def key_for_min_value(name_hash)
   if name_hash.empty?
     nil
   else
-  name_hash_array[0]
+  name_hash_array[inner_array_integers.to_s.to_i][0]
 end
 end
